@@ -1,0 +1,424 @@
+﻿<Page
+    x:Class="Japanese.PageHiragana"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Japanese"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:rg="using:SourceChord.ResponsiveGrid"
+    mc:Ignorable="d">
+
+    <ScrollViewer VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden">
+        <Grid Margin="0,50,0,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+            <rg:ResponsiveGrid>
+                <!-- Voyelles -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="a" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_A.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="a" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="i" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_I.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="i" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="u" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_U.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="u" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="e" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_E.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="e" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="o" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_O.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="o" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                
+                <!-- K -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ka" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_KA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ka" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ki" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_KI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ki" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ku" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_KU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ku" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ke" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_KE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ke" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ko" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_KO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ko" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                
+                <!-- S -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="sa" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_SA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="sa" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="shi" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_SHI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="shi" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="su" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_SU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="su" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="se" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_SE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="se" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="so" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_SO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="so" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                
+                <!-- T -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ta" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_TA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ta" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="chi" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_CHI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="chi" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="tsu" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_TSU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="tsu" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="te" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_TE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="te" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="to" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_TO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="to" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- N -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="na" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_NA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="na" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ni" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_NI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ni" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="nu" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_NU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="nu" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ne" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_NE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ne" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="no" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_NO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="no" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- N -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ha" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_HA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ha" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="hi" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_HI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="hi" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="fu" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_FU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="fu" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="he" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_HE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="he" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ho" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_HO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ho" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- M -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ma" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_MA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ma" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="mi" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_MI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="mi" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="mu" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_MU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="mu" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="me" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_ME.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="me" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="mo" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_MO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="mo" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- Y -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ya" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_YA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ya" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="yu" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_YU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="yu" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="yo" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_YO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="yo" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!--R -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ra" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_RA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ra" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="mi" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_RI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ri" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ru" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_RU.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ru" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="re" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_RE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="re" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="ro" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_RO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="ro" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- W -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="wa" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_WA.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="wa" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="wi" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_WI.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="wi" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="we" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_WE.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="we" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="wo" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_WO.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="wo" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <!-- N. -->
+                <StackPanel rg:ResponsiveGrid.XS="4" rg:ResponsiveGrid.SM="2" rg:ResponsiveGrid.LG="1">
+                    <Button Template="{StaticResource testButtonTemplate2}" Tag="n" HorizontalAlignment="Stretch" Click="Character_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Height="100" Width="100" HorizontalAlignment="Stretch" Source="Assets/Hira/Japanese_Hiragana_kyokashotai_N.png" />
+                            <TextBlock Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Bottom" Text="n" />
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+            </rg:ResponsiveGrid>
+        </Grid>
+    </ScrollViewer>
+</Page>
