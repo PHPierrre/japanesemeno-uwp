@@ -5,9 +5,22 @@
     xmlns:local="using:Japanese"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:rg="using:SourceChord.ResponsiveGrid"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Name="test" Text="Character" />
-    </Grid>
+    <ScrollViewer VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden">
+        <Grid Margin="0,50,0,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+            <rg:ResponsiveGrid>
+                <StackPanel rg:ResponsiveGrid.XS="12" rg:ResponsiveGrid.SM="6" rg:ResponsiveGrid.LG="3">
+                    <Image>
+                        <Image.Source>
+                            <BitmapImage x:Name="myImage" DecodePixelWidth="200" />
+                        </Image.Source>
+                    </Image>
+                </StackPanel>
+            </rg:ResponsiveGrid>
+        </Grid>
+    </ScrollViewer>
+    
 </Page>

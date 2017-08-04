@@ -124,6 +124,11 @@
     <None Include="Japanese_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Hira\gif\Hiragana_a_stroke_order_animation.gif" />
+    <Content Include="Assets\Hira\gif\Hiragana_e_stroke_order_animation.gif" />
+    <Content Include="Assets\Hira\gif\Hiragana_i_stroke_order_animation.gif" />
+    <Content Include="Assets\Hira\gif\Hiragana_o_stroke_order_animation.gif" />
+    <Content Include="Assets\Hira\gif\Hiragana_u_stroke_order_animation.gif" />
     <Content Include="Assets\Hira\Japanese_Hiragana_kyokashotai_A.png" />
     <Content Include="Assets\Hira\Japanese_Hiragana_kyokashotai_CHI.png" />
     <Content Include="Assets\Hira\Japanese_Hiragana_kyokashotai_E.png" />
@@ -261,7 +266,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\Hira\gif\" />
     <Folder Include="Assets\Kata\gif\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
